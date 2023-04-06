@@ -25,7 +25,7 @@ Personalized food warning system(image classification)
  - Dataset.cache(): 이미지를 로드한 후 메모리에 유지하였습니다.(데이타세트의 병목상태 해결)
  - Dataset.prefetch(): 훈련하는 동안 데이터 전처리 및 모델 실행을 중첩시킴
 
-# 데이터 모델링 및 학습 절차
+# 모델링 및 학습 절차
 1. 
  - 기본적으로 데이터 모델링을 할 때 keras의 Sequential 모델을 사용했습니다.
  - conv2d: (사이즈 3 x e의 16개의 필터) 이미지에서 특징이 추출되도록 하였스니다.
